@@ -1,0 +1,7 @@
+OVERALL SUMMARY:
+Artificial Intelligence (AI) refers to the simulation of human intelligence. Machine learning is a subset of AI that focuses on the development of programs that can access data and use it to learn for themselves.
+
+SLIDE SUMMARIES:
+
+Slide 1:
+Artificial Intelligence (AI) refers to the simulation of human intelligence. Machine learning is a subset of AI that focuses on the development of programs that can access data and use it to learn for themselves.

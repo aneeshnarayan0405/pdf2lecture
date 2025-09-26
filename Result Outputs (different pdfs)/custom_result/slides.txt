@@ -1,0 +1,20 @@
+Slide 1: Tecnvirons Pvt LTD AI Food Agent Assignment: "FoodieBot" - Database-Driven Conversational Fast Food System Deadline : - 16/9/25 The Challenge Overview Create an intelligent conversational AI system that works with pre-generated fast food product data stored in a database.
+
+Slide 2: with kimchi slaw and sriracha aioli", "ingredients": ["beef patty", "gochujang sauce", "kimchi", "brioche bun", "sriracha aioli"],
+
+Slide 3: "price": 12.
+
+Slide 4: Limited Time Specials Step 2: Database Implementation Choose ONE database option: ● SQLite: Simple, no setup required ● PostgreSQL: Free tier on Railw...
+
+Slide 5: PHASE 2: Conversational AI with Interest Scoring Conversational Intelligence Engine Build an AI system that: Core Conversation Features: ● Natural dia...
+
+Slide 6: 'order_intent': +30, # "I'll take it", "Add to cart" } NEGATIVE_FACTORS = { 'hesitation': -10, # "maybe", "not sure" 'budget_concern': -15, # "too exp...
+
+Slide 7: 'delay_response': -5, # Long response time } Database Query Integration: ● Search products by category, dietary tags, price range ● Filter by mood tags and preferences ● Rank products by popularity and compatibility ● Real-time product availability checks Example Conversation with Database Integration: Bot: "Welcome to FoodieBot! What's your food mood today? " User: "I want something spicy and adventurous but under $10" [Database Query: SELECT * FROM products WHERE 'spicy' IN (mood_tags) AND 'adventurous' IN (mood_tags) AND price < 10] [Interest Score: 75% - Specific preferences + budget indication] Bot: "Perfect! I found 3 amazing spicy adventures under $10.
+
+Slide 8: sounds perfect! What's the spice level?" [Interest Score: 90% - Enthusiasm + specific question] [Database Query: SELECT spice_level FROM products WHERE name = 'Fire Dragon Tacos'] Bot: "It's a solid 7/10 on our spice scale - definitely has a kick but won't destroy your taste buds! The Korean chili gives it a smoky heat.
+
+Slide 9: Database-Driven Recommendation Engine Create intelligent product matching: Recommendation Algorithms: 1.
+
+Slide 10: converting products ● Products by interest score correlation ● Category performance analysis ● Price sensitivity analysis Technical Requirements Requi...
+
